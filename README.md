@@ -47,6 +47,7 @@ Admin Console is available at: [http://192.168.59.103:8153/go](http://192.168.59
 Materials:
 
 * github repository with source with Dockerfiles (this repository).
+
 Stages:
 
 * server-config - fetches current GoCD server configuration
@@ -56,6 +57,7 @@ Stages:
 Materials:
 
 * docker image of custom gocd-server
+
 Stages:
 
 * deploy - no actual deploy, used as a reference to show trigger on Docker image update
