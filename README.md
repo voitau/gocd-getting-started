@@ -1,9 +1,6 @@
 # Introduction
 This guide shows how to setup delivery pipeline of GoCD with GoCD and Docker.
 
-# Contributing
-If you think something here should have been done differently, you are very welcome to contribute.
-
 # Setup
 ## Docker Registry
 Docker Registry is required to keep custom version of GoCD Server and Agent locally.
@@ -61,3 +58,6 @@ Materials:
 Stages:
 
 * deploy - no actual deploy, used as a reference to show trigger on Docker image update
+
+# Contributing
+If you think something here should have been done differently, you are very welcome to contribute.
