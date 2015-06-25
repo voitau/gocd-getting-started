@@ -1,4 +1,4 @@
-FROM voitau/gocd-server:15.1
+FROM tispr/gocd-server:15.1
 
 RUN apt-get update && apt-get install -y git
 
