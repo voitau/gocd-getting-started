@@ -1,5 +1,5 @@
 # Introduction
-This guide shows how to setup delivery pipeline for GoCD with GoCD using Docker.
+This guide shows how to setup delivery pipeline of GoCD with GoCD and Docker.
 
 # Contributing
 If you think something here should have been done differently, you are very welcome to contribute.
