@@ -44,6 +44,7 @@ Admin Console is available at: [http://192.168.59.103:8153/go](http://192.168.59
 
 ## Pipeline group: gocd
 ### Pipeline: gocd-server-build
+![gocd-server-build](/docs/images/build-gocd.png)
 Materials:
 
 * github repository with source with Dockerfiles (this repository).
@@ -54,6 +55,7 @@ Stages:
 * build-image - build Docker image of GoCD server with a new configuration, tags and pushes to local Docker GoCD registry
 
 ### Pipeline: gocd-server-deploy
+![gocd-server-deploy](/docs/images/deploy-gocd.png)
 Materials:
 
 * docker image of custom gocd-server
